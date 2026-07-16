@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<title>Для Оли ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+<div id="loader">
+
+    <div class="loader-heart">
+        ❤️
+    </div>
+
+    <h1>
+        Для Оли
+    </h1>
+
+    <p>
+        Немного волшебства...
+    </p>
+
+</div>
+
+<audio id="music" loop>
+    <source src="music/song.mp3" type="audio/mpeg">
+</audio>
+
+
+
+<div class="stars" id="stars"></div>
+
+<div class="hearts" id="hearts"></div>
+
+
+
+
+<main class="app">
+
+
+
+<section class="screen active" id="welcome">
+
+<div class="content">
+
+<div class="heart">
+❤️
+</div>
+
+<h1>
+Привет, Оля
+</h1>
+
+<p>
+У меня есть кое-что<br>
+специально для тебя...
+</p>
+
+
+<button onclick="openGift()">
+Открыть подарок ✨
+</button>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+<section class="screen" id="date">
+
+
+<div class="content">
+
+
+<div class="heart">
+✨
+</div>
+
+
+<h1>
+01.03.2026
+</h1>
+
+
+<p>
+Именно в этот день<br>
+началась наша история ❤️
+</p>
+
+
+<button onclick="nextScreen('story')">
+Дальше 💗
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="screen" id="story">
+
+
+<div class="story">
+
+
+<h1>
+Наша история ❤️
+</h1>
+
+
+
+<div class="timeline">
+
+
+
+<div class="event">
+
+<div class="circle">
+❤️
+</div>
+
+
+<h2>
+01 марта 2026
+</h2>
+
+
+<p>
+День, когда появилась<br>
+наша история.
+</p>
+
+
+</div>
+
+
+
+<div class="line"></div>
+
+
+
+<div class="event">
+
+<div class="circle">
+😄
+</div>
+
+
+<h2>
+Наши слова
+</h2>
+
+
+<p>
+"Шо ты, голова?"<br>
+"Хай бой / хай герл"<br><br>
+
+То, что понимаем только мы.
+</p>
+
+
+</div>
+
+
+
+
+<div class="line"></div>
+
+
+
+
+<div class="event">
+
+<div class="circle">
+🌭
+</div>
+
+
+<h2>
+Сосиска
+</h2>
+
+
+<p>
+Самое странное<br>
+и любимое прозвище ❤️
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+<button onclick="nextScreen('photos')">
+Наши фото 📸
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="screen" id="photos">
+
+
+<div class="photo-page">
+
+
+<h1>
+Наши моменты ❤️
+</h1>
+
+
+<div class="photo-box">
+
+
+<img id="photo" src="images/photo1.jpg">
+
+
+</div>
+
+
+<p id="caption">
+Первый наш момент ❤️
+</p>
+
+
+
+<button onclick="nextScreen('letter')">
+Письмо 💌
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="screen" id="letter">
+
+
+<div class="letter-page">
+
+
+
+<div id="envelope" onclick="openLetter()">
+
+
+
+<div class="envelope-icon">
+💌
+</div>
+
+
+<h1>
+Для Оли ❤️
+</h1>
+
+
+<p>
+Нажми, чтобы открыть
+</p>
+
+
+</div>
+
+
+
+
+
+<div id="letterText">
+
+
+<h1>
+Оля ❤️
+</h1>
+
+
+<p>
+
+18 лет — это только начало...
+
+<br><br>
+
+Оля ❤️
+
+Сегодня тебе исполняется 18 лет, и мне хочется сказать тебе то, что иногда сложно сказать просто словами.
+
+Я очень рад, что именно ты появилась в моей жизни (снова ахахахах).
+
+Мне нравится в тебе всё: твой характер, твой юмор, твоя красота, твой стиль и то, какая ты настоящая. Мне нравится, что с тобой можно смеяться над какими-то нашими глупостями, говорить «шо ты, голова?», пугаться, когда ты говоришь "соси ска" и понимать, что это только наше.
+
+Спасибо тебе за твою поддержку и за то, что ты рядом. Особенно за то, что даже несмотря на долгую разлуку, мы смогли снова начать общаться и как итог - мы вместе.
+
+Я хочу, чтобы ты всегда оставалась такой же шикарной, целеустремлённой, доброй и отзывчивой. Чтобы у тебя всё получилось с поступлением в вуз, чтобы ты добивалась всего, чего хочешь, и чтобы в жизни было как можно больше счастливых моментов.
+
+Никогда не забывай, какая ты шикарная.
+
+Спасибо тебе за наши моменты, наши шутки, наши разговоры и за то, что ты есть у меня.
+
+Люблю тебя ❤️
+
+
+<br><br>
+
+Люблю тебя ❤️
+
+<br><br>
+
+Твоя сосиска 🌭
+
+</p>
+
+
+
+
+<button onclick="toggleMusic()">
+🎵 Включить музыку
+</button>
+
+
+<br>
+
+
+
+<button onclick="nextScreen('final')">
+И ещё кое-что ❤️
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="screen" id="final">
+
+
+<div class="final-page">
+
+
+<div class="final-hearts">
+❤️ ✨ ❤️ ✨ ❤️
+</div>
+
+
+
+<h1>
+Оля ❤️
+</h1>
+
+
+
+<p>
+
+Спасибо тебе за то,<br>
+что ты есть у меня.
+
+
+<br><br>
+
+
+01.03.2026 — ∞
+
+
+<br><br>
+
+
+Люблю тебя ❤️
+
+
+</p>
+
+
+
+<div class="sausage" onclick="secret()">
+🌭
+</div>
+
+
+
+<p id="secretText"></p>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+</main>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
