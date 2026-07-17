@@ -152,10 +152,7 @@ let photos = [
 
 "photo2.jpg",
 
-"photo3.jpg",
-
-"photo4.jpg"
-
+"photo3.jpg"
 ];
 
 
