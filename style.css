@@ -1862,3 +1862,22 @@ rgba(255,130,170,.5);
 
 
 }
+/* ================================
+   FINAL MESSAGE
+================================ */
+
+
+.final-message {
+
+margin-top:40px;
+
+font-size:22px;
+
+color:#ffd1df;
+
+line-height:1.6;
+
+animation:
+appear 2s ease;
+
+}
