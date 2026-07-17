@@ -9,6 +9,8 @@
 
 <meta name="apple-mobile-web-app-capable" content="yes">
 
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
 <title>Для любимой Оли ❤️</title>
 
 <link rel="stylesheet" href="style.css">
@@ -17,6 +19,10 @@
 
 
 <body>
+
+
+<!-- ЗАГРУЗКА -->
+
 <div id="loader">
 
     <div class="loader-heart">
@@ -33,47 +39,74 @@
 
 </div>
 
+
+
+<!-- МУЗЫКА -->
+
 <audio id="music" loop>
+
     <source src="song.mp3" type="audio/mpeg">
+
 </audio>
 
 
 
+<!-- ФОН -->
+
 <div class="stars" id="stars"></div>
+
+<div class="floating-elements" id="floatingElements"></div>
 
 <div class="hearts" id="hearts"></div>
 
 
 
+<!-- ПРИЛОЖЕНИЕ -->
 
 <main class="app">
 
 
 
+
+
+<!-- ЭКРАН 1 -->
+
 <section class="screen active" id="welcome">
 
+
 <div class="content">
+
 
 <div class="heart">
 ❤️
 </div>
 
+
+
 <h1>
 Привет, малышка
 </h1>
 
-<p>
+
+<p class="typing">
+
 У меня есть кое-что<br>
 специально для тебя...
+
 </p>
 
 
+
 <button onclick="openGift()">
+
 Открыть подарок ✨
+
 </button>
 
 
+
 </div>
+
 
 </section>
 
@@ -81,6 +114,11 @@
 
 
 
+
+
+
+
+<!-- ЭКРАН ДАТЫ -->
 
 <section class="screen" id="date">
 
@@ -93,20 +131,49 @@
 </div>
 
 
+
 <h1>
+
 01.03.2026
+
 </h1>
 
 
+
 <p>
+
 Именно в этот день<br>
 началась наша история ❤️
+
 </p>
 
 
+
+<div class="timer-box">
+
+
+<h2>
+Мы вместе уже:
+</h2>
+
+
+<div id="timer">
+
+0 дней 0 часов 0 минут 0 секунд
+
+</div>
+
+
+</div>
+
+
+
 <button onclick="nextScreen('story')">
+
 Дальше 💗
+
 </button>
+
 
 
 </div>
@@ -118,6 +185,11 @@
 
 
 
+
+
+
+
+<!-- ИСТОРИЯ -->
 
 
 <section class="screen" id="story">
@@ -126,8 +198,11 @@
 <div class="story">
 
 
+
 <h1>
+
 Наша история ❤️
+
 </h1>
 
 
@@ -136,21 +211,32 @@
 
 
 
+
+
 <div class="event">
 
+
 <div class="circle">
+
 ❤️
+
 </div>
 
 
+
 <h2>
+
 01 марта 2026
+
 </h2>
 
 
+
 <p>
+
 День, когда появилась<br>
 наша история.
+
 </p>
 
 
@@ -158,31 +244,48 @@
 
 
 
+
+
 <div class="line"></div>
+
+
 
 
 
 <div class="event">
 
+
 <div class="circle">
+
 😄
+
 </div>
 
 
+
 <h2>
+
 Наши слова
+
 </h2>
 
 
+
 <p>
+
 "Шо ты, голова?"<br>
+
 "Хай бой / хай герл"<br><br>
 
-То, что может звучать странно, но мы это любим
+
+То, что может звучать странно,<br>
+но это наше ❤️
+
 </p>
 
 
 </div>
+
 
 
 
@@ -192,37 +295,52 @@
 
 
 
+
 <div class="event">
 
+
 <div class="circle">
+
 🌭
+
 </div>
+
 
 
 <h2>
+
 Сосиска
+
 </h2>
 
 
+
 <p>
+
 Самое странное<br>
-и любимое прозвище от которого я постоянно пугаюсь ❤️
+и любимое прозвище,<br>
+от которого я постоянно пугаюсь ❤️
+
 </p>
 
 
-</div>
-
-
 
 </div>
 
+
+
+
+</div>
 
 
 
 
 <button onclick="nextScreen('photos')">
+
 Наши фото 📸
+
 </button>
+
 
 
 </div>
@@ -235,8 +353,7 @@
 
 
 
-
-
+<!-- ФОТО -->
 
 <section class="screen" id="photos">
 
@@ -245,8 +362,11 @@
 
 
 <h1>
+
 Наши моменты ❤️
+
 </h1>
+
 
 
 <div class="photo-box">
@@ -258,15 +378,22 @@
 </div>
 
 
+
 <p id="caption">
+
 То самое время вместе ✨
+
 </p>
 
 
 
+
 <button onclick="nextScreen('letter')">
+
 Письмо 💌
+
 </button>
+
 
 
 </div>
@@ -277,10 +404,7 @@
 
 
 
-
-
-
-
+<!-- ПИСЬМО -->
 
 <section class="screen" id="letter">
 
@@ -294,21 +418,32 @@
 
 
 <div class="envelope-icon">
+
 💌
+
 </div>
+
 
 
 <h1>
+
 Для Оли ❤️
+
 </h1>
 
 
+
 <p>
+
 Нажми, чтобы открыть
+
 </p>
 
 
+
 </div>
+
+
 
 
 
@@ -317,59 +452,77 @@
 <div id="letterText">
 
 
+
 <h1>
+
 Оля ❤️
+
 </h1>
 
 
-<p>
 
-18 лет — это только начало...
-
-<br><br>
-
-
-Сегодня тебе исполняется 18 лет, и мне хочется сказать тебе то, что иногда сложно сказать просто словами.
-
-Я очень рад, что именно ты появилась в моей жизни (снова ахахахах).
-
-Мне нравится в тебе всё: твой характер, твой юмор, твоя красота, твой стиль и то, какая ты настоящая и живая. Мне нравится, что с тобой можно смеяться над какими-то нашими глупостями, говорить «шо ты, голова?», пугаться, когда ты говоришь "соси ска" и понимать, что это только наше.
-
-Спасибо тебе за твою поддержку и за то, что ты рядом. Особенно за то, что даже несмотря на долгую разлуку, мы смогли снова начать общаться и как итог - мы вместе.
-
-Я хочу, чтобы ты всегда оставалась такой же шикарной, целеустремлённой, доброй и отзывчивой. Чтобы у тебя всё получилось с поступлением в вуз, чтобы ты добивалась всего, чего хочешь, и чтобы в жизни было как можно больше счастливых моментов.
-
-Никогда не забывай, какая ты шикарная, а я, буду напоминать).
-
-Спасибо тебе за наши моменты, наши шутки, наши разговоры и за то, что ты есть у меня.
+<div class="typed-letter" id="typedLetter"></div>
 
 
 
-<br><br>
 
-Люблю тебя ❤️
 
-<br><br>
+<!-- ПЛЕЕР -->
 
-Твоя сосиска 🌭
+<div class="music-card">
+
+
+<div class="music-icon">
+
+🎵
+
+</div>
+
+
+
+<div class="music-info">
+
+
+<h2>
+
+Heyla-Boppa
+
+</h2>
+
+
+<p id="musicStatus">
+
+Нажми, чтобы включить ❤️
 
 </p>
 
 
+</div>
 
 
-<button onclick="toggleMusic()">
-🎵 Включить музыку
+
+<button onclick="toggleMusic()" id="musicButton">
+
+▶
+
 </button>
 
 
-<br>
+
+</div>
+
+
+
+
 
 
 
 <button onclick="nextScreen('final')">
+
 И ещё кое-что ❤️
+
 </button>
+
 
 
 
@@ -389,48 +542,101 @@
 
 
 
+<!-- ФИНАЛ -->
+
 <section class="screen" id="final">
 
 
 <div class="final-page">
 
 
+
+
+
 <div class="final-hearts">
+
 ❤️ ✨ ❤️ ✨ ❤️
+
 </div>
 
 
 
+
+
 <h1>
+
 Оля ❤️
+
 </h1>
+
+
 
 
 
 <p>
 
+
 Спасибо тебе за то,<br>
 что ты есть у меня.
 
 
+
 <br><br>
+
 
 
 01.03.2026 — ∞
 
 
+
 <br><br>
 
 
-Люблю тебя, с днем рождения! ❤️
+
+Люблю тебя,<br>
+с днем рождения! ❤️
 
 
 </p>
 
 
 
+
+
+<!-- СЕКРЕТНАЯ ФИШКА -->
+
+
+<div class="secret-box">
+
+
+<div class="planet">
+
+
+🌍
+
+</div>
+
+
+
+<p>
+
+Нажми на планету ✨
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
 <div class="sausage" onclick="secret()">
+
 🌭
+
 </div>
 
 
@@ -439,10 +645,13 @@
 
 
 
+
+
 </div>
 
 
 </section>
+
 
 
 
@@ -453,9 +662,13 @@
 
 
 
+
+
+
 <script src="script.js"></script>
 
 
 </body>
+
 
 </html>
