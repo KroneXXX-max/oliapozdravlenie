@@ -159,8 +159,6 @@ let photos = [
 
 let captions = [
 
-
-
 "То самое время вместе ✨",
 
 
