@@ -1200,3 +1200,44 @@ createFloating();
 
 
 },2000);
+/* =================================
+   BACK TO START
+================================= */
+
+
+function backToStart(){
+
+
+let current =
+document.querySelector(
+".screen.active"
+);
+
+
+
+current.classList.remove(
+"active"
+);
+
+
+
+setTimeout(()=>{
+
+
+document
+.getElementById("welcome")
+.classList.add(
+"active"
+);
+
+
+
+},300);
+
+
+
+createHearts();
+
+
+
+}
